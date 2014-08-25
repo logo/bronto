@@ -1,22 +1,2 @@
-
-/**
- * Bronto
- */
-
-.logo[data-logo="Bronto"] {
-  width: 4.772004242em;
-  /* (90/18.86) * (1) - 0 */
-}
-
-.logo[data-logo="Bronto"] > * {
-  background-image: url(images/logo.svg);
-  margin: -.1em .2em .1em -.2em;
-}
-
-.logo[data-logo="Bronto"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="Bronto"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
